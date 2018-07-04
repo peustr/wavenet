@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bleach = "==1.5.0"
+"h5py" = "*"
+joblib = "*"
+keras = "*"
+matplotlib = "*"
+numpy = "*"
+scipy = "*"
+sklearn = "*"
+tensorflow = "*"
+
+[dev-packages]
+messagebird-wavenet = {editable = true, path = "."}
+wavenet = {editable = true, path = "."}
+
+[requires]
+python_version = "3.6"
